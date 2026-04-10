@@ -1,0 +1,30 @@
+# Environment Variables
+.env
+.env.local
+.env.*.local
+
+# IDE and OS
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Dependencies
+vendor/
+node_modules/
+
+# Temporary files
+*.tmp
+*.bak
+*.log
+
+# Uploads (optional - adjust based on your needs)
+uploads/*
+!uploads/.gitkeep
+
+# System files
+.htaccess
+config.php.backup
